@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting to WhatsApp...</title>
+  <script>
+    const numbers = [
+      '601127576788',
+      '60176906858'
+    ];
+
+    const randomIndex = Math.floor(Math.random() * numbers.length);
+    const selectedNumber = numbers[randomIndex];
+
+    // Redirect ke WhatsApp
+    window.location.href = `https://wa.me/${selectedNumber}`;
+  </script>
+</head>
+<body>
+  <p>Sedang mengalihkan ke WhatsApp...</p>
+</body>
+</html>
